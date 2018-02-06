@@ -14,7 +14,7 @@
 <title>6.2.2018(1)</title>
 <!-- write your code here -->
 <script src="https://code.createjs.com/createjs-2015.11.26.min.js"></script>
-<script src="6.2.2018(1).js?1517925360564"></script>
+<script src="6.2.2018(1).js?1517927550171"></script>
 <script>
 var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
 function init() {
@@ -44,10 +44,10 @@ function handleComplete(evt,comp) {
 	}
 	exportRoot = new lib._6220181();
 	stage = new lib.Stage(canvas);
+	stage.addChild(exportRoot);
 	stage.enableMouseOver();	
 	//Registers the "tick" event listener.
 	fnStartAnimation = function() {
-		stage.addChild(exportRoot);
 		createjs.Ticker.setFPS(lib.properties.fps);
 		createjs.Ticker.addEventListener("tick", stage);
 	}	    
@@ -81,10 +81,7 @@ function handleComplete(evt,comp) {
 			canvas.style.height = anim_container.style.height = dom_overlay_container.style.height = h*sRatio+'px';
 			stage.scaleX = pRatio*sRatio;			
 			stage.scaleY = pRatio*sRatio;			
-			lastW = iw; lastH = ih; lastS = sRatio;            
-			stage.tickOnUpdate = false;            
-			stage.update();            
-			stage.tickOnUpdate = true;		
+			lastW = iw; lastH = ih; lastS = sRatio;		
 		}
 	}
 	makeResponsive(false,'both',false,1);	

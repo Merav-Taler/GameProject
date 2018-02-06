@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"6.2.2018_1__atlas_", frames: [[2562,981,1200,720],[3542,545,550,354],[0,3069,371,276],[2562,0,978,979],[3325,2473,660,480],[1672,2942,521,198],[3308,2955,521,198],[1672,3142,371,276],[0,0,2560,1792],[628,2441,259,73],[3764,1102,275,183],[628,2516,259,73],[902,2407,800,533],[3944,0,130,106],[3764,1287,291,171],[2506,2729,800,480],[902,1794,795,611],[1699,1794,795,611],[0,2441,626,626],[628,2942,640,384],[628,2792,259,64],[3764,1460,259,74],[628,2591,260,65],[628,2725,259,65],[628,2658,259,65],[3764,1612,259,74],[3764,1536,259,74],[1704,2407,800,533],[3944,108,50,43],[1270,2942,400,404],[3325,1703,663,768],[3764,901,253,199],[0,1794,900,645],[2562,1703,761,1024],[3542,0,400,543]]}
+		{name:"6.2.2018_1__atlas_", frames: [[2562,981,1200,720],[3542,545,550,354],[0,3069,371,276],[2562,0,978,979],[3325,2473,660,480],[3308,2955,521,198],[1672,2942,521,198],[1672,3142,371,276],[0,0,2560,1792],[628,2516,259,73],[3764,1102,275,183],[628,2441,259,73],[902,2407,800,533],[3944,0,130,106],[3764,1287,291,171],[2506,2729,800,480],[902,1794,795,611],[1699,1794,795,611],[0,2441,626,626],[628,2942,640,384],[628,2792,259,64],[3764,1536,259,74],[628,2591,260,65],[628,2725,259,65],[628,2658,259,65],[3764,1612,259,74],[3764,1460,259,74],[1704,2407,800,533],[3944,108,50,43],[1270,2942,400,404],[3325,1703,663,768],[3764,901,253,199],[0,1794,900,645],[2562,1703,761,1024],[3542,0,400,543]]}
 ];
 
 
@@ -4925,7 +4925,6 @@ p.nominalBounds = new cjs.Rectangle(-57,-39,115.6,80.5);
 
 	// Layer 1
 	this.continuePlayBtn = new lib.contBtn();
-	this.continuePlayBtn.name = "continuePlayBtn";
 	this.continuePlayBtn.parent = this;
 	this.continuePlayBtn.setTransform(-5.3,83,0.718,0.718);
 	new cjs.ButtonHelper(this.continuePlayBtn, 0, 1, 2);
@@ -4951,7 +4950,6 @@ p.nominalBounds = new cjs.Rectangle(-57,-39,115.6,80.5);
 
 	// Layer 1
 	this.startbtn = new lib.startBtn_1();
-	this.startbtn.name = "startbtn";
 	this.startbtn.parent = this;
 	this.startbtn.setTransform(2,33,0.714,0.714);
 
@@ -4969,12 +4967,10 @@ p.nominalBounds = new cjs.Rectangle(-57,-39,115.6,80.5);
 
 	// Layer 1
 	this.hitLink = new lib.hitLink();
-	this.hitLink.name = "hitLink";
 	this.hitLink.parent = this;
 	this.hitLink.setTransform(-79.2,113.4);
 
 	this.closeAboutBtn = new lib.closeAboutBtn();
-	this.closeAboutBtn.name = "closeAboutBtn";
 	this.closeAboutBtn.parent = this;
 	this.closeAboutBtn.setTransform(-215.1,-50.4,0.694,0.694);
 
@@ -5841,7 +5837,6 @@ p.nominalBounds = new cjs.Rectangle(-57,-39,115.6,80.5);
 
 	// Layer 1
 	this.myAboutBtn = new lib.myAboutBtn();
-	this.myAboutBtn.name = "myAboutBtn";
 	this.myAboutBtn.parent = this;
 	this.myAboutBtn.setTransform(77.2,16.8,1,1,0,0,0,0.3,-0.3);
 
@@ -5902,10 +5897,10 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 1.00,
 	manifest: [
-		{src:"images/6.2.2018_1__atlas_.png?1517925359853", id:"6.2.2018_1__atlas_"},
-		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1517925360539", id:"lib/jquery-2.2.4.min.js"},
-		{src:"components/sdk/anwidget.js?1517925360539", id:"sdk/anwidget.js"},
-		{src:"components/ui/src/combobox.js?1517925360539", id:"an.ComboBox"}
+		{src:"images/6.2.2018_1__atlas_.png?1517927549618", id:"6.2.2018_1__atlas_"},
+		{src:"https://code.jquery.com/jquery-2.2.4.min.js?1517927550140", id:"lib/jquery-2.2.4.min.js"},
+		{src:"components/sdk/anwidget.js?1517927550140", id:"sdk/anwidget.js"},
+		{src:"components/ui/src/combobox.js?1517927550140", id:"an.ComboBox"}
 	],
 	preloads: []
 };
